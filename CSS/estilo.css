@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /*centraliza o conteudo mediante tamanho da tela*/
+}
+
+#container {
+    width: 40%;
+    max-width: 1300px;
+    height: auto;
+    border: 1px solid silver;
+    border-radius: 15px;
+    padding: 17px 17px 17px;
+    text-align: center;
+}
+
+#container form input {
+    height: 40px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container h1 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+#container form {
+    font-size: 1em;
+    display: flex;
+    flex-direction: column;
+}
+
+#container form label {
+    font-weight: bold;
+    text-align: left;
+    font-size: 1em;
+    margin-top: 10px;
+
+}
+
+#container form input {
+    height: 40px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#container form button {
+    height: 50px;
+    font-size: 1em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color:#87d4ee;
+    color: #000000;
+    font-weight: bold;
+}
+
+#resultadoFinanceiro {
+    border: 1px solid sienna;
+    border-radius: 10px;
+    background-color: #87d4ee;
+    padding: 7px;
+}
+
+#resultadoFinanceiro h2 {
+    font-size: 1em;
+    color: #000;
+}
+
+#resultadoFinanceiro h3 {
+    font-size: 0.8em;
+    color: #000;
+}
+
+#resultadoFinanceiro .containerDespesas {
+    display: flex;
+    gap: 10px;
+}
+
+.box {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 7px;
+}
+
+.box_despesasFixa {
+    background-color: #87d4ee;
+}
